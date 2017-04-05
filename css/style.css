@@ -1,11 +1,12 @@
 header {
-  background-color: #eebb44;
+  background-color: dodgerblue;
   margin-bottom: 40px;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #252525;
+  background-color: dimgray
 }
 
 header h1 {
@@ -15,10 +16,16 @@ header h1 {
 .cardpic {
 	width: 100%;
 }
+.cardpic:hover {
+    width: 105%;
+    color: black;
+}
+
 .card {
-	border: 1px solid #cecec4;
+	border: 1px solid black;
 	margin-bottom: 25px
 }
 .card-info {
 	padding: 15px;
+    background-color: aliceblue;
 }
